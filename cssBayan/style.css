@@ -114,7 +114,7 @@ body {
     border-radius: 2em;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 769px) {
     .title {
         font-size: 2rem;
     }
@@ -125,7 +125,7 @@ body {
     
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1024px) {
 
     .title {
         font-size: 2r5m;
