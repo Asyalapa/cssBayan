@@ -51,7 +51,7 @@ body {
 .title {
     margin: 0;
     padding: 1em .5em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ body {
 .subtitle {
     margin: 0;
     padding: 1em 1em;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -116,11 +116,11 @@ body {
 
 @media (min-width: 820px) {
     .title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .subtitle {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     
 }
@@ -128,11 +128,11 @@ body {
 @media (min-width: 1080px) {
 
     .title {
-        font-size: 4rem;
+        font-size: 2r5m;
     }
 
     .subtitle {
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
     
     .accordion:hover > .accordion__title {
@@ -148,7 +148,7 @@ body {
 
     .accordion__title:hover > .accordion__box {
         visibility: visible;
-        padding: 1rem 0;
+        padding: 1em 0;
         opacity: 1;
         height: auto;
         transition: visibility .5s ease-in, opacity .5s ease-in;
