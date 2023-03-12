@@ -4,18 +4,6 @@
     --bg-color-label: #F0BF5F;
     --border-color: rgb(219, 219, 219);
     font-size: 10px;
-    /* 
-    --btn-color-text: #CC9933;
-    --btn-color-activ: #A47312;
-    --bg-color-article: #FFF;
-    --lite-text-color: #999999;
-    --nav-color: #666666;
-    --title-color: #333333;
-    --text-color: #000000;
-    --title-size: 40px;
-    --subtitle-size: 20px;
-    --text-size: 16px;
-    --label-size: 12px; */
 }
 
 *, 
@@ -35,14 +23,14 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: .75rem;
     visibility: visible;
     background: rgba(255, 255, 255, 0.3);
 }
 
 .header {
     background-color: var(--bg-section);
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: .2rem solid var(--border-color);
 }
 
 .container {
@@ -57,7 +45,7 @@ body {
 .footer {
     flex-shrink: 0;
     background-color: var(--bg-section);
-    border-top: 2px solid var(--border-color);
+    border-top: .2rem solid var(--border-color);
 }
 
 .title {
